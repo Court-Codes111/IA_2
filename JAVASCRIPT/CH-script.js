@@ -55,8 +55,9 @@ function placeOrder() {
     localStorage.removeItem('purchases');
     
     // Redirect to homepage
-    window.location.href = "Index.html";
+    window.location.href = "index.html";
 }
 
 // Load order summary when page loads
+
 window.onload = loadOrderSummary;
