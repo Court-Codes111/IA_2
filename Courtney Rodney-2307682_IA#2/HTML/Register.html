@@ -1,0 +1,90 @@
+<!-- 
+Courtney Rodney
+2307682
+Web Programming
+Class: Thursday 6:00pm - 7:50pm
+Teacher: Sirisha Badhika
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+   <title>Register</title>
+
+    <link rel="shortcut icon" type="image/png" href="../Assets/B-icon1.png">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../CSS/R-styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+
+    <div class="Lcontainer">
+        <main>
+            <form action="Login.html" method="POST" id="registerForm">
+                <section>
+                    <label>Username:</label>
+                    <input type="text" name="username" minlength="5" maxlength="15" required>
+                </section>
+
+                <section>
+                    <label>Contact Info:</label>
+                    <input type="tel" name="contact" placeholder=" +1 (___) ___-___" required>
+                </section> 
+
+                <section>
+                    <label>Date Of Birth:</label>
+                    <input type="date" name="dob" required>
+                </section>
+
+                <section>
+                    <label>Email:</label>
+                    <input type="email" name="mail" required>
+                </section>
+
+                <section>
+                    <label>Delivery Info:</label>
+                    <input type="text" name="street" placeholder="Street" required>
+                    <input type="text" name="city" placeholder="City">
+                    <input type="text" name="parish" placeholder="Parish" required>
+                    <input type="text" name="ZIP" placeholder="ZIP code">
+                    <input type="text" name="country" placeholder="Country" required>
+                </section>
+
+                <section>
+                    <label>Pickup Location:</label>
+                    <input type="text" name="locate" required>
+                </section>
+
+                <section>
+                    <label>Verification ID:</label>
+                    <input type="text" name="ID" required>
+                </section>
+
+                <section>
+                    <label>Password:</label>
+                    <input type="password" name="usercode" required>
+                </section>
+
+                <button type="submit">ENTER</button>
+            </form>
+        </main>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="../JAVASCRIPT/R-script.js"></script>
+</body>
+</html>
