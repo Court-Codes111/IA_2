@@ -26,8 +26,9 @@ function checkLogin() {
     
     if (validUser) {
         alert("Login successful!");
-        window.location.href = "Homepage.html"; // Redirect manually
+        window.location.href = "index.html"; // Redirect manually
     } else {
         alert("Invalid username or password");
     }
+
 }
